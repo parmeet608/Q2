@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  
+  .formContainer {
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .input {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .button {
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    
+  }
+  
+  .productsContainer {
+    width: 100%;
+    text-align: left;
+  }
+  
+
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .productItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
